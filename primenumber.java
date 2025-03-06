@@ -1,7 +1,7 @@
-import java.util.Scanner;
 
 
-public class Primenumber {
+
+public class primenumber {
 	public static void main(String args[]) {
 
          int num = 8;
@@ -11,7 +11,7 @@ public class Primenumber {
 				count++;
 			}
 		}
-		System.out.println(count == 1 ? "Prime Number" : "Not Prime Number");
+		System.out.println(count == 1 ? "Prime Number" : "Not Prime Number");
 
 		
 	}
