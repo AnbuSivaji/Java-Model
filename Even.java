@@ -3,13 +3,16 @@ import java.util.Scanner;
 public class Even {
      public static void main(String args[]){
            Scanner scan=new Scanner(System.in);
-           int num;
+            
+          int num;
            int even_sum=0,odd_sum=0;
            
            do{
                 System.out.println("Enter the number");
-                num=scan.nextInt();
-                if(num%2==0) even_sum+=num;
+               num=scan.nextInt();
+     
+                if(num%2==0)  
+                even_sum+=num;
                 else odd_sum+=num;
                 num--;
            } while(num<0);
